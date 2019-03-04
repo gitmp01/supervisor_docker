@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export SOME_VAR=ciao
+export SOME_VAR=hello
