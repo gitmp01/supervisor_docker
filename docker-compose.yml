@@ -1,0 +1,10 @@
+version: '3'
+services:
+    app:
+        build: .
+        env_file: .env
+        volumes:
+            - ./logs:/var/log
+        # environment:
+        #     SOME_VAR: $SOME_VAR 
+
